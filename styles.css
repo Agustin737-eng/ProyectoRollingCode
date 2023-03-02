@@ -1,0 +1,28 @@
+:root{
+    --main-color: #A6E3E9;
+    --nav-color: #71C9CE;
+    --article-color: #A6E3E9;
+    --footer-color: #E3FDFD;
+}
+nav{
+    background-color: var(--nav-color)
+}
+main{
+    background-color: var(--main-color);
+}
+article{
+    background-color: var(--article-color);
+}
+footer {
+    background-color: var(--footer-color);
+}
+@media (max-width: 768px) {
+    .detailTrash{
+        border-top: 3px solid #6c757d;
+    }
+}
+@media (min-width: 768px) {
+    .detailTrash{
+        border-left: 3px solid #6c757d;
+    }
+}
